@@ -1,0 +1,76 @@
+ body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    height: 500px;
+  }
+  
+  h2, h4, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header, .card {
+    border-radius: 10px;
+  }
+  
+  button i {
+    font-size: 1.2rem;
+   ;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    height: 370px;
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  .navbar-brand, h2, h4 {
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .text-center {
+      text-align: left !important;
+    }
+  }
+  
+  .basket-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .basket-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+  }
+  
+  .basket-item-details {
+    flex-grow: 1;
+    margin-left: 1rem;
+    background-color: bisque;
+    border-radius: 20px;
+  }
+  .pad{
+    padding-right: 50px;
+  }
+  .bg{
+    background-color: #ffffff;
+    
+  }
+
+  .btn-color{
+    background-color: olivedrab;
+    align-items: do;
+    gap: 1000px;
+
+  }
